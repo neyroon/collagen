@@ -1,0 +1,23 @@
+/* This CSS is common to all pages */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.navitem {
+  padding: 3px 10px;
+}
+.navitem.is-active {
+  background-color: #eee;
+}
