@@ -39,12 +39,3 @@ html {
     height: -webkit-fill-available;
   }
 }
-
-.mobile-menu {
-  height: 100vh;
-  height: 100dvh;
-
-  @supports (-webkit-touch-callout: none) {
-    height: -webkit-fill-available;
-  }
-}
