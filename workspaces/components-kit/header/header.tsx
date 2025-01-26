@@ -66,7 +66,7 @@ export const Header = () => {
             "translate-y-[0]": isOpen,
             "translate-y-[-100%]": !isOpen,
           },
-          " bg-wheal fixed top-0 left-0 bottom-0 right-0 w-[100vw]  h-[100dvh] ios-full-height z-10  transition-transform duration-300"
+          " bg-wheal fixed top-0 left-0 bottom-0 right-0 w-[100vw]  h-[100dvh] ios-full-height z-10  transition-transform duration-300 supports-[-webkit-touch-callout: none]:h-[webkit-fill-available]"
         )}
       >
         <div className="mt-[80px] lg:mt-[100px] h-[calc(100%-85px)] overflow-y-scroll ">
