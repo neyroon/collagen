@@ -1,5 +1,41 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --font-display: "Golos Text", serif;
+  --font-halvar: "Halvar Breitschrift";
+
+  --color-main-text: #333333;
+  --color-wheal: #f6f7f7;
+  --color-gray: #e3e3e3;
+  --color-vivid-raspberry: #ff0063;
+  --color-pictorial-carmine: #b20045;
+  --color-raisin-black: #232323;
+  --color-black-olive: #3d3d3d;
+  --color-rocket-metallic: #8a817b;
+  --color-anti-flash-white: #f2f2f2;
+  --color-anti-flash-white-2: #f1f3f2;
+  --color-wb: #a73afd;
+  --color-wb-active: #8e03fc;
+  --color-ozon: #005bff;
+  --color-ozon-active: #0040b2;
+  --color-yellow: #fffd00;
+  --color-lotion: #fafafa;
+
+  --breakpoint-s-448: 28rem;
+  --breakpoint-xl-1392: 87rem;
+  --breakpoint-2xl-1632: 102rem;
+}
+
+@utility hamburger-toggle {
+  @apply [&>div]:h-0 [&>div]:bg-white [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+}
+
+@utility ios-full-height {
+  @supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+  }
 }

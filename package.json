@@ -2,13 +2,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite build && vite preview"
+    "preview": "NODE_ENV=production && vite build && vite preview"
   },
   "dependencies": {
     "@babel/core": "^7.26.0",
     "@babel/plugin-transform-react-jsx": "^7.25.9",
     "@preact/preset-vite": "^2.10.0",
     "@tailwindcss/vite": "^4.0.0",
+    "classnames": "^2.5.1",
     "preact": "^10.25.4",
     "preact-render-to-string": "^6.5.13",
     "tailwindcss": "^4.0.0",
