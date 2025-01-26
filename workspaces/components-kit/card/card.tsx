@@ -36,7 +36,7 @@ export const Card: FunctionalComponent<CardProps> = ({
       {(isNew || isHit) && (
         <span
           className={classNames(
-            "absolute top-0 left-0 font-halvar font-medium text-[11px]/[13px] lg:text-[14px]/[16px]  px-[8px] py-[6px] lg:py-[9px] flex justify-center items-center rounded-tl-[16px]  rounded-br-[8px] lg:rounded-br-[16px]",
+            " absolute top-0 left-0 font-halvar font-medium text-[11px]/[13px] lg:text-[14px]/[16px]  px-[8px] py-[6px] lg:py-[9px] flex justify-center items-center rounded-tl-[16px]  rounded-br-[8px] lg:rounded-br-[16px] select-none",
             {
               "bg-vivid-raspberry text-white": isNew,
               "bg-yellow text-raisin-black": isHit,
