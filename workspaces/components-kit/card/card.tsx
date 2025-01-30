@@ -32,7 +32,7 @@ export const Card: FunctionalComponent<CardProps> = ({
     </>
   ));
   return (
-    <div className="flex flex-col gap-[10px] lg:gap-[26px] relative w-[calc(50%-8px)] lg:w-[calc(33.3%-40px)]">
+    <div className="flex flex-col gap-[10px] lg:gap-[26px] relative w-[calc(50%-8px)] md:w-[calc(33.3%-40px)]">
       {(isNew || isHit) && (
         <span
           className={classNames(

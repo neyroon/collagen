@@ -13,15 +13,15 @@ export const Hero: FunctionalComponent<HeroProps> = ({ imageLink }) => {
           src={imageLink}
           alt="Изображение товара"
           loading="lazy"
-          className="block rounded-t-none  lg:h-[100%] h-[280px] lg:w-[50%] lg:rounded-[40px] rounded-[28px] object-cover shrink-0"
+          className="block rounded-t-none   lg:h-[100%] h-[280px] lg:w-[50%] lg:rounded-[40px] rounded-[28px] object-cover shrink-0"
         />
-        <div className="flex flex-col my-auto lg:max-w-[645px] p-[32px] lg:p-0 items-center lg:items-start xl:w-[calc(50%-80px)] lg:w-[calc(50%-40px)] text-center lg:text-left">
+        <div className="flex flex-col my-auto lg:pr-[40px] lg:max-w-[645px] p-[32px] lg:p-0 items-center lg:items-start xl:w-[calc(50%-80px)] lg:w-[calc(50%-40px)] text-center lg:text-left">
           <div className="select-none bg-vivid-raspberry rounded-[8px] px-[8px] py-[4px] mb-[12px] text-[16px]/[20px] lg:text-[22px]/[28px]  font-halvar uppercase text-white font-bold">
             Новинка
           </div>
-          <div className="text-[22px]/[28px] lg:text-[48px]/[54px] mb-[4px] lg:mb-[10px] font-halvar uppercase font-extrabold">
+          <h1 className="text-[22px]/[28px] lg:text-[48px]/[54px] mb-[4px] lg:mb-[10px] font-halvar uppercase font-extrabold">
             Заголовок с названием товара
-          </div>
+          </h1>
           <div className="text-[14px]/[20px] lg:text-[18px]/[28px] mb-[16px] lg:mb-[35px] text-raisin-black">
             Описание желательно использовать в минимальном кол-ве. Двух строк
             для этой цели достаточно
